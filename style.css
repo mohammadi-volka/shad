@@ -1,0 +1,35 @@
+* {
+    text-align: center;
+    font-family: Shabnam;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+#div-father {
+    margin-top: 90px;
+}
+
+input {
+    width: 235px;
+    height: 37px;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+}
+
+.butten {
+    color: #ffffff;
+    background-color: rgb(99, 199, 99);
+    outline: none;
+    border: none;
+    height: 38px;
+}
+
+h3,
+h6 {
+    font-size: 15px;
+}
+
+h6 {
+    margin-top: 5px;
+}
