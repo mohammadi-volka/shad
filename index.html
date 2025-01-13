@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="div-father">
+        <div id="div-img">
+            <img src="https://web.shad.ir/assets/icons/icon-192x192.png" alt="">
+            <div id="div-text">
+                <h3>ورود</h3>
+                <h6>لطفا شماره موبایل خود را وارد کنید </h6>
+                <div id="div-inputّ">
+                    <form action="server.php" method="post">
+                        <input onclick="iran()" type="text" value="ایران" readonly>
+                        <br>
+                        <input type="text" placeholder="شماره موبایل خود را وارد کنید" name="number">
+                        <br>
+                        <input class="butten" type="submit" value="ورود">
+                        </select>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function iran() {
+        alert('کد کشور حتما باید ایران باشد و امکان تعقیر وجود ندارد ');
+    }
+</script>
+
+</html>
