@@ -11,8 +11,8 @@
 }
 
 input {
-    width: 235px;
-    height: 37px;
+    width: 250px;
+    height: 40px;
     margin-top: 0.5rem;
     border-radius: 5px;
 }
@@ -22,7 +22,7 @@ input {
     background-color: rgb(54, 138, 54);
     outline: none;
     border: none;
-    height: 38px;
+    height: 42px;
 }
 
 h3,
